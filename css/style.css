@@ -54,9 +54,28 @@ h1 {
     flex-wrap: wrap;
 }
 
+/* Contact Information */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/* About me */
+
+#aboutme {
+    padding: 10px 200px;
+}
+
 @media screen and (max-width: 768px) {
     img {
         padding-bottom: 25px;
+    }
+
+    .projects {
+        flex-direction: column;
     }
 
     #header {
