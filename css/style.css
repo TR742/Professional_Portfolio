@@ -17,6 +17,10 @@ h1 {
     padding-bottom: 10px;
 }
 
+h2 {
+    border-bottom: 5px ridge lightblue;
+}
+
 a {
     padding: 10px;
     color: white;
@@ -40,6 +44,7 @@ a:hover {
 
 #header h1 {
     padding-left: 20px;
+    font-size: 40px;
 }
 
 #navbar {
@@ -81,13 +86,14 @@ h1 {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-    border-top: 10px ridge lightblue;
+    border-top: 5px ridge lightblue;
 }
 
 /* About me */
 
 #aboutme {
     padding: 10px 150px;
+    border-bottom: 5px ridge lightblue;
 }
 
 @media screen and (max-width: 768px) {
