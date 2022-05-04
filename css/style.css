@@ -21,7 +21,6 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
-    border: 1px solid black;
 }
 
 #header h1 {
@@ -66,7 +65,7 @@ h1 {
 /* About me */
 
 #aboutme {
-    padding: 10px 200px;
+    padding: 10px 150px;
 }
 
 @media screen and (max-width: 768px) {
@@ -74,8 +73,20 @@ h1 {
         padding-bottom: 25px;
     }
 
-    .projects {
+    .description {
+        width: 100%;
+    }
+
+    #aboutme {
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+        
+    }
+
+    #projects {
         flex-direction: column;
+        align-items: center;
     }
 
     #header {
